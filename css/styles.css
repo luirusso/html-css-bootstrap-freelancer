@@ -1,0 +1,17 @@
+/* DEBUG BOX */
+.box {
+    height: 100px;
+}
+
+/* DEBUG COLORS */
+.blue {
+    background-color: blue;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.green {
+    background-color: green ;
+}
