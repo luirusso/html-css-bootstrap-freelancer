@@ -1,6 +1,16 @@
 /* DEBUG BOX */
 .box {
     height: 100px;
+    border: 2px solid black;
+}
+
+/* DEBUG UTILITIES */
+.height-300 {
+    height: 300px;
+}
+
+.height-700 {
+    height: 700px;
 }
 
 /* DEBUG COLORS */
@@ -14,4 +24,8 @@
 
 .green {
     background-color: green ;
+}
+
+.red {
+    background-color: red;
 }
