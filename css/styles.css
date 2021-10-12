@@ -40,12 +40,16 @@ a {
     color: currentColor;
 }
 
+.paddingtop-160px {
+    padding-top: 160px;
+}
+
 .darkbluebg {
     background-color: #2C3E50;
 }
 
 .avatar {
-    width: 50%;
+    width: 240px;
 }
 
 .whitetext {
