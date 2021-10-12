@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Layout</title>
+    <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css' integrity='sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==' crossorigin='anonymous'/>
     <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
     <!-- HEADER -->
@@ -33,9 +37,9 @@
     </nav>
 
     <!-- JUMBO SECTION -->
-    <section class="green py-5">
-        <div class="container">
-            <div class="row text-center">
+    <section class="green pt-5">
+        <div class="container text-center">
+            <div class="row">
                 <div class="col-12 flex justify-content-center">
                     <img class="avatar pt-5" src="./img/avatar.svg" alt="">
                 </div>
@@ -45,30 +49,52 @@
                     </div>
                 </div>
             </div>
+            <!-- WHITE STAR SEPARATOR -->
+            <div class="flex justify-content-center star_separator align-items-end">
+                <hr class="whitebg">
+                <span class="fs-1 px-2 whitetext">
+                    <i class="fas fa-star"></i>
+                </span>
+                <hr class="whitebg">
+            </div>
+            <div class="col-12 whitetext fs-5 py-4">
+                GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+            </div>
         </div>
     </section>
 
     <!-- MAIN SECTION -->
     <main>
-        <div class="container">
+        <div class="container text-center pt-5">
+            <div class="fs-2 fw-bold">
+                PORTFOLIO
+            </div>
+            <!-- DARK STAR SEPARATOR -->
+            <div class="flex justify-content-center star_separator align-items-end py-4">
+                <hr class="blackbg">
+                <span class="fs-1 px-2 blacktext">
+                    <i class="fas fa-star"></i>
+                </span>
+                <hr class="blackbg">
+            </div>
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="box red height-300"></div>
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <img class="card" src="./img/cabin.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="box red height-300"></div>
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <img class="card" src="./img/cake.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="box red height-300"></div>
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <img class="card" src="./img/circus.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="box red height-300"></div>
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <img class="card" src="./img/game.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="box red height-300"></div>
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <img class="card" src="./img/safe.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="box red height-300"></div>
+                <div class="col-12 col-md-6 col-lg-4 pb-5">
+                    <img class="card" src="./img/submarine.png" alt="">
                 </div>
             </div>
         </div>
@@ -76,7 +102,17 @@
 
     <!-- ABOUT SECTION -->
     <section class="green">
-        <div class="container">
+        <div class="container text-center">
+            <div class="fs-1 fw-bold">
+                ABOUT
+            </div>
+            <div class="flex justify-content-center star_separator align-items-end">
+                <hr class="whitebg">
+                <span class="fs-1 px-2 whitetext">
+                    <i class="fas fa-star"></i>
+                </span>
+                <hr class="whitebg">
+            </div>
             <div class="row">
                 <div class="col-12">
                     <div class="flex box height-700">

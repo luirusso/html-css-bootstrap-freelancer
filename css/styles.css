@@ -46,3 +46,26 @@
 .whitetext {
     color: white;
 }
+
+.whitebg {
+    background-color: white;
+}
+
+.blacktext {
+    color: #2C3E50;
+}
+
+.blackbg {
+    background-color: #2C3E50;
+}
+
+.star_separator hr {
+    width: 17%;
+    height: 4px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.card {
+    max-width: 100%;
+}
