@@ -89,6 +89,7 @@ a {
 .site_btn_outline:hover {
     color: #1ABC9C;
     background-color: white;
+    border: 1px solid white;
 }
 
 .acquagreen {
