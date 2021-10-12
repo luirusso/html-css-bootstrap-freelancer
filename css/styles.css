@@ -69,3 +69,15 @@
 .card {
     max-width: 100%;
 }
+
+.site_btn_outline {
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.site_btn_outline:hover {
+    color: #1ABC9C;
+    background-color: white;
+}

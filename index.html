@@ -16,7 +16,7 @@
     <!-- HEADER -->
     <nav class="navbar nav_site text-uppercase fw-bold fixed-top navbar-expand-lg navbar-dark">
         <div class="container justify-content-between">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -102,11 +102,12 @@
 
     <!-- ABOUT SECTION -->
     <section class="green">
-        <div class="container text-center">
-            <div class="fs-1 fw-bold">
+        <div class="container pt-5">
+            <div class="text-center fs-1 fw-bold whitetext">
                 ABOUT
             </div>
-            <div class="flex justify-content-center star_separator align-items-end">
+            <!-- WHITE STAR SEPARATOR -->
+            <div class="flex justify-content-center star_separator align-items-end py-4">
                 <hr class="whitebg">
                 <span class="fs-1 px-2 whitetext">
                     <i class="fas fa-star"></i>
@@ -115,13 +116,19 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="flex box height-700">
-                        <div class="row align-items-center">
-                            <div class="col-12 col-md-6 text-center">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatibus officia consectetur blanditiis porro! Odit, quibusdam sunt id voluptatibus minima nesciunt, optio ut ex laudantium, quos pariatur officia. Nesciunt, molestias.
+                    <div class="flex">
+                        <div class="row align-items-center justify-content-center whitetext fs-4">
+                            <div class="col-7 col-md-6 pb-4">
+                                Freelancer is a free bootstrap theme created by Start Bootstrap.
+                                The download includes the complete source files including HTML, CSS, and Java Script as well as optional LESS stylesheets for easy customization.
                             </div>
-                            <div class="col-12 col-md-6 text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consectetur? Distinctio vel deleniti voluptatum inventore asperiores repudiandae a, error adipisci doloremque tempora rerum voluptate earum dolores quibusdam corporis. Tempora, nulla.
+                            <div class="col-7 col-md-6 pb-5">
+                                Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                            </div>
+                            <div class="flex justify-content-center pb-4">
+                                <button type="button" class="btn site_btn_outline btn-outline-primary fs-5">
+                                    <i class="fas fa-download"></i> Download
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -132,10 +139,31 @@
 
     <!-- CONTACTS SECTION -->
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="box height-300"></div>
+        <div class="container pt-5">
+            <div class="fs-2 fw-bold text-center">
+                CONTACT ME
+            </div>
+            <!-- DARK STAR SEPARATOR -->
+            <div class="flex justify-content-center star_separator align-items-end py-4">
+                <hr class="blackbg">
+                <span class="fs-1 px-2 blacktext">
+                    <i class="fas fa-star"></i>
+                </span>
+                <hr class="blackbg">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-7">
+                    <form>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="password" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                      </form>
                 </div>
                 </div>
             </div>
