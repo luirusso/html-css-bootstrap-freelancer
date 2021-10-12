@@ -40,6 +40,11 @@ a {
     color: currentColor;
 }
 
+a:hover {
+    cursor: pointer;
+    color: white;
+}
+
 .paddingtop-160px {
     padding-top: 160px;
 }
