@@ -27,9 +27,22 @@
 }
 
 .green {
-    background-color: green ;
+    background-color: #1ABC9C ;
 }
 
 .red {
     background-color: red;
+}
+
+/* MAIN STYLES */
+.nav_site {
+    background-color: #2C3E50;
+}
+
+.avatar {
+    width: 50%;
+}
+
+.whitetext {
+    color: white;
 }
