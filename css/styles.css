@@ -23,7 +23,7 @@
 }
 
 .lightblue {
-    background-color: lightblue;
+    background-color: #3A546D;
 }
 
 .green {
@@ -81,3 +81,26 @@
     color: #1ABC9C;
     background-color: white;
 }
+
+.site_btn {
+    color: white;
+    border-color: white;
+    background-color: #1ABC9C;
+    border-radius: 7px;
+}
+
+.site_btn:hover {
+    color: #1ABC9C;
+    background-color: white;
+}
+
+.site_input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.site_input::placeholder {
+    color: #2C3E50;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
