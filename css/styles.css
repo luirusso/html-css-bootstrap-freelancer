@@ -96,7 +96,7 @@ a:hover {
 
 .card-container:hover .after {
     cursor: pointer;
-    width: 100%%;
+    width: 100%;
     display: block;
     background: #1abc9ca8;
 }
