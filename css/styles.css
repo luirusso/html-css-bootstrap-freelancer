@@ -80,12 +80,7 @@ a:hover {
     opacity: 1;
 }
 
-.posrelative {
-    position: relative;
-}
-
 .card-container .after {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -104,7 +99,6 @@ a:hover {
 .fa-plus {
     top: 40%;
     bottom: 50%;
-    position: absolute;
     transform: translate(-50%, -50%);
     font-size: 5rem;
 }
